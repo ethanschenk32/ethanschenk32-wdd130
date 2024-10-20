@@ -53,7 +53,7 @@ nav a:hover {
     font-family: 'Inter', 'Rething Sans', sans-serif;
     font-size: 18px;
     padding: 15px 30px;
-    margin top: 50px;
+    margin-top: 50px;
     border-radius: 5px;
 }
 .book:hover, .join:hover{
