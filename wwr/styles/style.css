@@ -9,6 +9,7 @@ nav a{
     text-align: center;
     text-decoration: none;
     padding: 35px;
+    color:#F2F2F2;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -43,9 +44,10 @@ body {
 header {
     background-color:#020873;
     font-family: 'Permanent Marker';
+    
 }
 nav a:hover {
-    background-color: #F2F2F2;
+    background-color: #303473;
 }
 .book, .join{
     background-color: #F2F2F2;
