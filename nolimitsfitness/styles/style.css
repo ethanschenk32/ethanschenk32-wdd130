@@ -211,23 +211,25 @@ footer a:hover{
     padding-left: 60px;
     font-size: 2.5em;
     margin-top: 100px;
+    grid-column: 1/2;
 }
 
 .top-message h4{
     padding-left: 60px;
-    margin-top: -190px;
     line-height: 30px;
+    grid-column: 1/2;
 }
 
 .top-message h3{
     padding-left: 60px;
-    margin-top: -250px;
+    grid-column: 1/2;
 }
-.top-img{
+.plans-img{
     grid-column: 2/3;
     width: 60%;
     padding: 20px;
     margin-left: 150px;
+    margin-top: -315px;
 }
 
 .free{
