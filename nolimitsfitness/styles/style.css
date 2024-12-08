@@ -197,3 +197,115 @@ footer a{
 footer a:hover{
     color:#BF3030;
 }
+
+.top-message{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #0D0D0D;
+    color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.top-message h2{
+    padding-left: 60px;
+    font-size: 2.5em;
+    margin-top: 100px;
+}
+
+.top-message h4{
+    padding-left: 60px;
+    margin-top: -190px;
+    line-height: 30px;
+}
+
+.top-message h3{
+    padding-left: 60px;
+    margin-top: -250px;
+}
+.top-img{
+    grid-column: 2/3;
+    width: 60%;
+    padding: 20px;
+    margin-left: 150px;
+}
+
+.free{
+    background: #8C2020;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.free h2{
+    font-size: 1.8em;
+}
+
+.free-trial{
+    color:#0D0D0D;
+    font-size: 1.2em;
+}
+
+.free a:hover{
+    color: white;
+}
+
+.plans{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 15px;
+}
+
+.plans section{
+    margin: 15px;
+    background-color:#0D0D0D;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.plans h2{
+    font-size: 1.8em;
+}
+
+.basic-bottom{
+    margin-top: 260px;
+}
+
+.premium-bottom{
+    margin-top: 170px;
+}
+
+.select-button{
+    background-color: white;
+    color: #8C2020;
+    font-family: "Racing Sans One";
+    border-radius: 8px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 40px;
+    transition-duration: 0.2s;
+}
+
+.select-button a{
+    color:#8C2020;
+    text-decoration: none;
+}
+
+.select-button:hover{
+    background-color:#8C2020;
+}
+
+.select-button a:hover{
+    color: white;
+}
+
+.select-button a:visited{
+    color:#0D0D0D;
+}
