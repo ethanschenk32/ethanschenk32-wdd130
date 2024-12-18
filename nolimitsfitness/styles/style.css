@@ -311,3 +311,89 @@ footer a:hover{
 .select-button a:visited{
     color:#0D0D0D;
 }
+
+.amenities h2{
+    font-size: 3em;
+    padding: 50px;
+}
+
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #0D0D0D;
+    color: white;
+    padding: 50px;
+}
+
+img.intro-img{
+    width: 50%;
+    grid-column: 2/3;
+    margin-left: 200px;
+    margin-top: -130px;
+}
+
+.intro h3, p{
+    grid-column: 1/2;
+}
+
+.intro h3{
+    font-size: 1.8em;
+}
+
+.intro p{
+    line-height: 40px;
+}
+
+ul{
+    font-family: "Poppins";
+}
+
+.list-amenities{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.sec1, .sec3{
+    line-height: 40px;
+    padding: 20px;
+    color: white;
+    background-color:#8C2020;
+}
+
+.sec1{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.sec4{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.sec2, .sec4{
+background-color:#0D0D0D;
+color: white;
+line-height: 40px;
+padding: 20px;
+}
+
+.bottom-msg{
+    text-align: center;
+    padding: 50px;
+}
+
+.bottom-msg h3{
+    font-size: 1.5em;
+}
+
+.bottom-msg h4{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+img.bottom-img{
+    width: 20%;
+}
+
+
